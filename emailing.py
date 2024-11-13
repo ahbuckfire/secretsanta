@@ -40,7 +40,7 @@ def build_body(giver_name, receiver_name):
             Get excited(!),
         </p>
         <p style="text-align: center; font-weight: bold; color: #b22222;">
-            Annabel
+            The elves
         </p>
     </body>
     </html>
