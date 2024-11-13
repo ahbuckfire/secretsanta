@@ -24,10 +24,10 @@ def build_body(giver_name, receiver_name):
         <div style="margin-top: 20px; padding: 15px; background-color: #fff8e1; border: 1px solid #b22222; border-radius: 5px;">
             <h3 style="color: #006400; font-size: 1.2em; text-align: center;">The Details:</h3>
             <ul style="list-style-type: none; padding-left: 0;">
-                <li><strong>🎁 How much can I spend?</strong> <span style="font-style: italic">Less than $50!</span></li>
-                <li><strong>📅 When are we doing this?</strong> <span style="font-style: italic">Sunday, December 15th @ 12:30 PM</span></li>
-                <li><strong>📍 Where are we doing this?</strong> <span style="font-style: italic">38 West 70th Street, Apt #2</span></li>
-                <li><strong>👀 Does Annabel know the Secret Santa assignments?</strong> No! This message was sent by a program that selected pairings without her knowledge. <em>We are all in the dark!</em></li>
+                <li><strong>🎁 How much can I spend?</strong> <span style="font-style: italic">{config.max_spend}</span></li>
+                <li><strong>📅 When are we doing this?</strong> <span style="font-style: italic">{config.date_time}</span></li>
+                <li><strong>📍 Where are we doing this?</strong> <span style="font-style: italic">{config.location.capitalize()}</span></li>
+                <li><strong>👀 Who knows what the pairings are?</strong> No one!</li>
             </ul>
         </div>
 
